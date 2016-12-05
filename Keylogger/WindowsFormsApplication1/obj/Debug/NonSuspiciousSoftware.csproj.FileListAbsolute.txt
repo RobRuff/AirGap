@@ -20,3 +20,13 @@ C:\Users\Relf\Documents\AirGap\WindowsFormsApplication1\obj\Debug\NonSuspiciousS
 C:\Users\Relf\Documents\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.exe.config
 C:\Users\Relf\Documents\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.exe
 C:\Users\Relf\Documents\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.pdb
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.exe.config
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.csprojResolveAssemblyReference.cache
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.Properties.Resources.resources
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.csproj.GenerateResource.Cache
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.exe
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NonSuspiciousSoftware.pdb
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NAudio.dll
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\bin\Debug\NAudio.xml
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.exe
+C:\Users\Rob\Documents\Projects\AirGap\Keylogger\WindowsFormsApplication1\obj\Debug\NonSuspiciousSoftware.pdb
